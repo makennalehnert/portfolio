@@ -1,0 +1,60 @@
+.contact {
+    color: #ceeddb;
+    animation: fadeIn linear 1s;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.balls {
+  display: flex;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.icon{
+    background-color: #21212b;
+    align-items: center;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Play', sans-serif;
+    transition: .5s;
+    box-shadow:  0px 1px 4px 1px #ceeddb;
+    transition: height width .5s;
+    font-size: 12px;
+    margin:20px;
+ }
+
+.icon p {
+  margin-bottom: 0px;
+  color:#ceeddb;
+}
