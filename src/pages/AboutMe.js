@@ -23,23 +23,67 @@ export default function AboutMe() {
         <h2>Skills</h2>
         <div className="skillLevels">
           <ul className="code">
+            <div className="skillnlevel">
             <li>Javascript</li>
+            <div>
+              <p>* * * * * * *</p>
+            </div>
+            </div>
+            <div className="skillnlevel">
             <li>React</li>
+              <p>* * * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>HTML</li>
+            <p>* * * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>CSS</li>
+            <p>* * * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Node.js</li>
+            <p>* * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Knex</li>
+            <p>* * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Express</li>
+            <p>* * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>PostgreSQL</li>
+            <p>* * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Git</li>
+            <p>* * * * * *</p>
+            </div>
           </ul>
           <hr></hr>
           <ul className="ani">
+          <div className="skillnlevel">
             <li>Adobe Premiere</li>
+            <p>* * * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Adobe After Effects</li>
+            <p>* * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Adobe Illustrator</li>
+            <p>* * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Procreate</li>
+            <p>* * * * * * * *</p>
+            </div>
+            <div className="skillnlevel">
             <li>Maya</li>
+            <p>* * * *</p>
+            </div>
           </ul>
         </div>
       </div>

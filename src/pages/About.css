@@ -71,3 +71,15 @@
 .skillLevels hr {
   width:90%;
 }
+
+.skillnlevel {
+  display: flex;
+  justify-content: space-between;
+  animation: scale ease 1.5s;
+  background-color:#1f1f25;
+  border-bottom: solid 1px #262630;
+}
+
+.skills p {
+  margin-bottom: 0px;
+}
