@@ -3,7 +3,7 @@
 }
 
 .navcontainer {
-    height: 140px;
+  height: 140px;
 }
 
 .nav {
@@ -14,58 +14,49 @@
 }
 hr {
   width: 40%;
-  color:#FE5F55;
+  color: #fe5f55;
   animation: scale ease 1.5s;
-  margin:auto;
+  margin: auto;
 }
 
 @keyframes scale {
-  0% {transform: scaleX(0)}
-  100% {transform: scaleX(1)}
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
-.navballs{
-    background-color: #1b1b20;
-    align-items: center;
-    border-radius: 50%;
-    height: 85px;
-    width: 85px;
-    display: flex;
-    justify-content: center;
-    margin:20px;
-    font-family: 'Play', sans-serif;
-    transition: .5s;
-    box-shadow:  0px 1px 3px 0px #ceeddb;
-    transition: height width .5s;
+.navballs {
+  background-color: #1b1b20;
+  align-items: center;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Play", sans-serif;
+  box-shadow: 0px 1px 3px 0px #ceeddb;
+  transition: width 0.5s, height 0.5s, box-shadow 0.5s, color 0.5s, text-shadow 0.5s ease-in;
 }
 
 .links {
   text-decoration: none;
   color: #ceeddb;
-  transition: .5s;
+  transition: color 0.5s, text-shadow 0.5s, ease-in;
 }
-
-.navballs:before {
-    transition: .5s;
-    color:#ceeddb;
-}
-
-.navballs:hover:before {
-    box-shadow: 0px 0px 15px 5px #048a81;
-    width: 97px;
-    height: 97px;
-    color:#048a81;
-  }
 
 .navballs:hover {
-    box-shadow: 0px 0px 7px 5px #048a81;
-    width: 90px;
-    height: 90px;
-    color: #048a81 !important;
-    text-shadow: 0 0 5px #048a81;
+  box-shadow: 0px 0px 7px 5px #36726e;
+  width: 90px;
+  height: 90px;
+  color: #36726e;
+  text-shadow: 0 0 5px #36726e;
 }
 
 .links:hover {
-    text-shadow: 0 0 5px #048a81;
-    color:#a5dfd7;
+  text-shadow: 0 0 5px #36726e;
+  color: #a5dfd7;
 }

@@ -1,85 +1,126 @@
 .about {
-    color: #ceeddb;
-    animation: fadeIn linear 1s;
-    font-family: 'Play', sans-serif;
-    display: flex;
-    padding:15px;
-    margin-right:20px;
-    margin-left: 20px;
-    padding-top:0px;
+  color: #ceeddb;
+  animation: fadeIn linear 1s;
+  font-family: "Play", sans-serif;
+  display: flex;
+  padding: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 0px;
 }
 
+
+
 @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  100% {
+    opacity: 1;
   }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+}
 
-  .general {
-    text-align: center;
-    flex:1;
-    padding-left:20px;
-    padding-right: 20px;
-    display: flex;
-    flex-direction: column;
-
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-
-  .skills {
-    text-align: center;
-    flex:1;
-    padding-left:20px;
-    padding-right: 20px;
+  100% {
+    opacity: 1;
   }
+}
 
- .code {
-    font-size:17px;
-    text-align: start;
-
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-
-  .ani {
-    text-align: start;
-    font-size:17px; 
-    margin-top: 16px;  
-    margin-bottom: 0px;;
+  100% {
+    opacity: 1;
   }
+}
 
-.general p{
-  font-size:17px;   
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.general {
+  text-align: center;
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  text-align: center;
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skillLevels {
+  display: flex;
+  flex-direction: column;
+
+}
+.code {
+  font-size: 17px;
+  text-align: start;
+}
+
+.ani {
+  text-align: start;
+  font-size: 17px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.general p {
+  font-size: 17px;
 }
 
 .skillLevels hr {
-  width:90%;
+width:94%;
+margin-left: 32px;
 }
 
 .skillnlevel {
   display: flex;
   justify-content: space-between;
-  animation: scale ease 1.5s;
-  background-color:#1f1f25;
+  background-color: #1f1f25;
   border-bottom: solid 1px #262630;
+  align-items: center;
 }
 
 .skills p {
   margin-bottom: 0px;
+}
+
+#blocks {
+  display: flex;
+}
+
+
+@media all and (max-width: 935px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillLevels hr {
+    margin-left: 10px;
+  }
 }

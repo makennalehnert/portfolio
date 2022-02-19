@@ -1,4 +1,12 @@
 .wholesite {
-    height:100vh;
     background: #1b1b20;
+
+    height:100vh;
 }
+
+@media all and (max-width: 935px) {
+    .wholesite {
+      height:100%;
+    }
+  }
+
