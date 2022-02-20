@@ -64,3 +64,13 @@ hr {
   text-shadow: 0 0 5px #36726e;
   color: #a5dfd7;
 }
+
+@media all and (max-width: 500px) {
+  .navballs {
+    height: 75px;
+    width: 75px;
+  }
+  .navcontainer {
+    height: 120px;
+  }
+}

@@ -72,4 +72,10 @@
   .home {
     height: 100vh;
   }
+  #name {
+    font-size: 55px;
+  }
+  #title {
+    font-size: 25px;
+  }
 }
