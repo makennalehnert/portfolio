@@ -80,6 +80,7 @@
 .code {
   font-size: 17px;
   text-align: start;
+  list-style: none;
 }
 
 .ani {
@@ -87,6 +88,7 @@
   font-size: 17px;
   margin-top: 16px;
   margin-bottom: 0px;
+  list-style: none;
 }
 
 .general p {
@@ -122,5 +124,13 @@ margin-left: 32px;
   }
   .skillLevels hr {
     margin-left: 10px;
+  }
+
+  ul.ani{
+    padding-left: 0px;
+  }
+
+  ul.code{
+    padding-left: 0px;
   }
 }
