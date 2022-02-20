@@ -1,5 +1,6 @@
-#block {
+#emptyBlock {
     height: 14px;
     width: 16px;
     background-color: #36726e;
+    opacity: .23;
 }
