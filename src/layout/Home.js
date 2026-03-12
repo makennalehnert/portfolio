@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div>
         <ul>
-          <li id="title">Software Developer & Engineer</li>
+          <li id="title">Software Developer</li>
           <li>With a background in animation & motion design</li>
         </ul>
       </div>
