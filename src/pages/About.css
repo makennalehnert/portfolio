@@ -3,10 +3,12 @@
   animation: fadeIn linear 1s;
   font-family: "Play", sans-serif;
   display: flex;
+  align-items: center;
   padding: 15px;
   margin-right: 20px;
   margin-left: 20px;
   padding-top: 0px;
+  height: 100%;
 }
 
 

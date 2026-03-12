@@ -68,7 +68,7 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <SkillBlocks />
-                <EmptySkillBlocks />
+                <SkillBlocks />
               <EmptySkillBlocks />
               <EmptySkillBlocks />
               </div>
@@ -83,7 +83,7 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <SkillBlocks />
-                <EmptySkillBlocks />
+                <SkillBlocks />
               <EmptySkillBlocks />
               <EmptySkillBlocks />
               </div>
@@ -157,7 +157,7 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <SkillBlocks />
-                <EmptySkillBlocks />
+                <SkillBlocks />
               <EmptySkillBlocks />
               <EmptySkillBlocks />
               <EmptySkillBlocks />
