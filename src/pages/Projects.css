@@ -4,7 +4,6 @@
   font-family: "Play", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items:center;
 }
 
@@ -104,6 +103,8 @@ margin-top: 25px;
 @media all and (max-width: 935px) {
   .projectsPage {
     height: 100vh;
+    width: 100dvw;
+    text-align: center;
   }
 
   .projectLinks a {
