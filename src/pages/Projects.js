@@ -6,11 +6,13 @@ export default function Projects() {
         <div className="projectsPage">
             <h1>Projects</h1>
             <div className="projects">
+            <div className="inProgress">
+                <h2>Projects screen is being updated, check back soon!</h2>
+            </div>
             <div className="eachProject">
                 <div className="projectLinks">
                 <h4><a href="https://reservations-client-ml.herokuapp.com">Restaurant Reservation System - </a></h4><a className="git" href="https://github.com/makennalehnert/capstone-reservations"> Github Repo</a>
                 </div>
-                <hr></hr>
                 <ul className="projectList">
                 <li>Full Stack Web App</li>
                 <li>React.js on Front-End </li>
