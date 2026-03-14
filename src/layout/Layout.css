@@ -4,6 +4,14 @@
     height:100vh;
 }
 
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+}
+
 @media all and (max-width: 935px) {
     .wholesite {
       height:100%;

@@ -38,9 +38,9 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <SkillBlocks />
-                <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <SkillBlocks />
+               <EmptySkillBlocks />
+               <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -54,8 +54,8 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -69,8 +69,8 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <SkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <SkillBlocks />
+                <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -84,8 +84,38 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <SkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <SkillBlocks />
+                <EmptySkillBlocks />
+              </div>
+            </div>
+             <div className="skillnlevel">
+              <li>Git</li>
+              <div id="blocks">
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+              </div>
+            </div>
+             <div className="skillnlevel">
+              <li>Bootstrap</li>
+              <div id="blocks">
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+               <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -96,11 +126,26 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <SkillBlocks />
+                <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+              </div>
+            </div>
+            <div className="skillnlevel">
+              <li>npm (Node Package Manager)</li>
+              <div id="blocks">
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <SkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -113,9 +158,9 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -127,10 +172,10 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks/>
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks/>
               </div>
             </div>
             <div className="skillnlevel">
@@ -143,24 +188,9 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              </div>
-            </div>
-            <div className="skillnlevel">
-              <li>Git</li>
-              <div id="blocks">
-                <SkillBlocks />
-                <SkillBlocks />
-                <SkillBlocks />
-                <SkillBlocks />
-                <SkillBlocks />
-                <SkillBlocks />
-                <SkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <EmptySkillBlocks />
+               <EmptySkillBlocks />
+               <EmptySkillBlocks />
               </div>
             </div>
           </ul>
@@ -177,8 +207,8 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -191,9 +221,9 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -206,9 +236,9 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
+               <EmptySkillBlocks />
+                <EmptySkillBlocks />
+                <EmptySkillBlocks />
               </div>
             </div>
             <div className="skillnlevel">
@@ -234,11 +264,11 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <SkillBlocks />
                 <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks />
-              <EmptySkillBlocks/>
-              <EmptySkillBlocks/>
+               <EmptySkillBlocks />
+               <EmptySkillBlocks />
+               <EmptySkillBlocks />
+               <EmptySkillBlocks/>
+               <EmptySkillBlocks/>
               </div>
             </div>
           </ul>

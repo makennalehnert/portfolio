@@ -14,7 +14,7 @@ function Layout() {
         <div>
             <MyNav/>
         </div>
-        <div>
+        <div className="pages">
             <Routes>
                 <Route exact path="/" element={<Home/>} />
                 <Route exact path="/aboutme" element={<AboutMe/>}/>
