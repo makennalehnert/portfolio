@@ -11,8 +11,6 @@
   height: 100%;
 }
 
-
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -77,8 +75,8 @@
 .skillLevels {
   display: flex;
   flex-direction: column;
-
 }
+
 .code {
   font-size: 17px;
   text-align: start;
@@ -109,6 +107,7 @@ width:100%;
   background-color: #1f1f25;
   border-bottom: solid 1px #262630;
   align-items: center;
+  padding: 0px 10px;
 }
 
 .skills p {
