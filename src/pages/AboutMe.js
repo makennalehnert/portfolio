@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react"
 import "./About.css";
 import SkillBlocks from "../other/SkillBlocks";
 import EmptySkillBlocks from "../other/EmptySkillBlocks";
@@ -33,7 +34,9 @@ export default function AboutMe() {
         <h2>Skills</h2>
         <div className="skillLevels">
           <ul className="code">
-            <div className="skillnlevel">
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Javascript</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -47,8 +50,10 @@ export default function AboutMe() {
                <EmptySkillBlocks />
                <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>React</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -62,8 +67,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>HTML</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -77,8 +84,10 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>CSS</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -92,8 +101,10 @@ export default function AboutMe() {
                 <SkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-             <div className="skillnlevel">
+            </motion.div>
+             <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Git</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -107,8 +118,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-             <div className="skillnlevel">
+            </motion.div>
+             <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Bootstrap</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -122,8 +135,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Node.js</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -137,8 +152,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>npm (Node Package Manager)</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -152,8 +169,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Knex</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -167,8 +186,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Express</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -182,8 +203,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks/>
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>PostgreSQL</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -197,11 +220,13 @@ export default function AboutMe() {
                <EmptySkillBlocks />
                <EmptySkillBlocks />
               </div>
-            </div>
+            </motion.div>
           </ul>
           <hr></hr>
           <ul className="ani">
-            <div className="skillnlevel">
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Premiere</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -215,8 +240,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>After Effects</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -230,8 +257,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Illustrator</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -245,8 +274,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks />
                 <EmptySkillBlocks />
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Procreate</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -260,8 +291,10 @@ export default function AboutMe() {
                 <EmptySkillBlocks/>
                 <EmptySkillBlocks/>
               </div>
-            </div>
-            <div className="skillnlevel">
+            </motion.div>
+            <motion.div className="skillnlevel"
+            whileHover={{ backgroundColor: "#262630"}}
+            >
               <li>Maya</li>
               <div id="blocks">
                 <SkillBlocks />
@@ -275,7 +308,7 @@ export default function AboutMe() {
                <EmptySkillBlocks/>
                <EmptySkillBlocks/>
               </div>
-            </div>
+            </motion.div>
           </ul>
         </div>
       </div>
