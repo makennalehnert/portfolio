@@ -10,18 +10,23 @@ export default function AboutMe() {
       <div className="general">
         <h1>About Me</h1>
         <p>
-          Hi, I'm Makenna! I used to study animation, but I have always had an
-          interest in coding and software development. In 2020 I decided to get
-          online and finally try to teach myself some Javascript. I loved it!
-          After a couple months of teaching myself, I decided to look more into
-          how I could actually become a Software Developer.{" "}
+          Hi, I'm Makenna! I'm a front-end developer with around four years of experience
+          building and maintaining client facing web and mobile applications. I specialize
+          in creating responsive, user-focused interfaces using JavaScript, HTML, and 
+          CSS. 
         </p>
         <p>
-          I didn't know if it was a possibility for me at the time, but I ended
-          up finding and enrolling in a six month full-time software engineering
-          bootcamp. During those six months I built out both the frontend and
-          backend of several applications, while also getting experience with
-          working in teams, deployment and project managment.
+          In my previous role, I worked within a proprietary platform to
+          implement and debug application features, workflows, and UI components for client 
+          applications. I also served as the mobile app subject matter expert and led the 
+          development of a client mobile application. 
+        </p>
+        <p>
+          Before transitioning into software development, 
+          I worked in motion design, which continues to influence how I approach interface design
+          — focusing on clarity, usability, and visually engaging interactions.
+          I enjoy building intuitive digital experiences and am always looking to improve my 
+          skills, explore new technologies, and create products that people enjoy using.
         </p>
       </div>
       <div className="skills">
